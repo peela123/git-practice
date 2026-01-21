@@ -10,6 +10,10 @@ app.get("/about", (req, res) => {
   res.status(200).json({ message: "about page" });
 });
 
+app.get("/info", (req, res) => {
+  res.status(200).json({ message: "info page" });
+});
+
 app.listen(PORT, () => {
   console.log("express server listen to port:", PORT);
 });

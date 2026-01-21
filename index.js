@@ -12,7 +12,7 @@ app.get("/about", (req, res) => {
 
 app.get("/info", (req, res) => {
   res.status(200).json({ message: "info page" });
-});'
+});
 
 app.get("/cart", (req, res) => {
   res.status(200).json({ message: "cart page" });
